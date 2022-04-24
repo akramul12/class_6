@@ -126,7 +126,6 @@ console.log(`
       total admision fress           :${total_free}
     
     `);
-
     
 
 
