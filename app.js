@@ -36,73 +36,73 @@ const studentInformation = [
 let total_free =0;
 studentInformation.forEach((data , index) => {
 
-    // console.log(`
-    // index number            :${index +1}
+    console.log(`
+    index number            :${index +1}
 
-    // student Name            :${data[0]}
-    // student Role            :${data[1]}
-    // student Age             :${data[2]}
-    // student Class           :${data[3]}
-    // student Gender          :${data[4]}
-    // student Location        :${data[5]}
-    // student fees            :${data[6]}
+    student Name            :${data[0]}
+    student Role            :${data[1]}
+    student Age             :${data[2]}
+    student Class           :${data[3]}
+    student Gender          :${data[4]}
+    student Location        :${data[5]}
+    student fees            :${data[6]}
    
-    // `);
+    `);
 
     total_free +=data[6]
 
 
     // Female Students
 
-    // if (data[4] == 'female'){
-    //     console.log(`
-    //     index number            :${index +1}
-    //     student Name            :${data[0]}
-    //     student Role            :${data[1]}
-    //     student Age             :${data[2]}
-    //     student Class           :${data[3]}
-    //     student Gender          :${data[4]}
-    //     student Location        :${data[5]}
-    //     student fees            :${data[6]}
+    if (data[4] == 'female'){
+        console.log(`
+        index number            :${index +1}
+        student Name            :${data[0]}
+        student Role            :${data[1]}
+        student Age             :${data[2]}
+        student Class           :${data[3]}
+        student Gender          :${data[4]}
+        student Location        :${data[5]}
+        student fees            :${data[6]}
         
         
-    //     `);
+        `);
      
-    //  }
-    // //  class wise student result
-    // if (data[3] =='six'){
-    //     console.log(`
-    //     index number            :${index +1}
-    //     student Name            :${data[0]}
-    //     student Role            :${data[1]}
-    //     student Age             :${data[2]}
-    //     student Class           :${data[3]}
-    //     student Gender          :${data[4]}
-    //     student Location        :${data[5]}
-    //     student fees            :${data[6]}
+     }
+    //  class wise student result
+    if (data[3] =='six'){
+        console.log(`
+        index number            :${index +1}
+        student Name            :${data[0]}
+        student Role            :${data[1]}
+        student Age             :${data[2]}
+        student Class           :${data[3]}
+        student Gender          :${data[4]}
+        student Location        :${data[5]}
+        student fees            :${data[6]}
         
         
-    //     `);
+        `);
 
-    // }
+    }
 
 
     // Location wise student result
 
-    // if (data[5] == 'bagerhat'){
-    //     console.log(`
-    //     index number            :${index +1}
-    //     student Name            :${data[0]}
-    //     student Role            :${data[1]}
-    //     student Age             :${data[2]}
-    //     student Class           :${data[3]}
-    //     student Gender          :${data[4]}
-    //     student Location        :${data[5]}
-    //     student fees            :${data[6]}
+    if (data[5] == 'bagerhat'){
+        console.log(`
+        index number            :${index +1}
+        student Name            :${data[0]}
+        student Role            :${data[1]}
+        student Age             :${data[2]}
+        student Class           :${data[3]}
+        student Gender          :${data[4]}
+        student Location        :${data[5]}
+        student fees            :${data[6]}
         
         
-    //     `);
-    // }
+        `);
+    }
 
     if (data[2] >=10 && data[2] <=25){
         console.log(`
